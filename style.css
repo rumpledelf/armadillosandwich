@@ -72,6 +72,7 @@ ul{
 	max-width: 980px;
 	margin: 0 auto;
 	padding: 0 10px;
+	overflow: hidden;
 }
 .center{
 	text-align: center;
@@ -85,5 +86,8 @@ ul{
 	}
 	#header{
 		text-align: center;
+	}
+	#menu a{
+		float: left;
 	}
 }
