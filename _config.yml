@@ -1,0 +1,11 @@
+# Site settings
+title: Armadillo Sandwich
+logo: armadillologo.png
+slogan: Turning your dreams into reality
+description: > 
+  Armadillo Sandwich Pty Ltd homepage
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://armadillosandwich.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
