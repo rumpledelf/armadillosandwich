@@ -44,3 +44,7 @@ If you are interested, I am taking people as individuals or groups on an ongoing
 You can also film by yourself and send raw videos to me so I can add them to the site YouTube channel. Please get in touch first if you are interested in doing this as there tends to be a list of words that are required rather than accepting unsolicited content.
 
 Paying $1 per video.
+<hr>
+<h2>Drupal Freelancers</h2>
+
+Seeking Drupal freelancers, particularly in the Sydney region, who are available on an ongoing part time basis for Drupal site maintenance work.
