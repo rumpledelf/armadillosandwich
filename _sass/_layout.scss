@@ -34,6 +34,21 @@
   }
 }
 
+.extlink{
+  display: block;
+  width: 150px;
+  margin: $spacing-unit/2 auto $spacing-unit auto;
+  color: white !important;
+  text-align: center;
+  padding:5px 10px;
+  background-color: $orange;
+  border-radius: 5px;
+  &:hover{
+    color: $beige;
+    background-color: darken($orange, 10%);
+  }
+}
+
 #footer{
   background-color: $darkbeige;
   color: $brown;

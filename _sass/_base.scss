@@ -2,13 +2,13 @@
  * Links
  */
 a{
-  color: $brown;
+  color: $orange;
   text-decoration: none;
   &:visited {
-    color: $brown;
+    color: darken($orange,10%);
   }
   &:hover {
-    color: $orange;
+    color: darken($darkbeige,10%);
   }
 }
 
