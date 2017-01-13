@@ -1,7 +1,7 @@
 # Site settings
 title: Armadillo Sandwich
 logo: armadillologo.png
-slogan: Turning your dreams into reality
+slogan: Because not every company has to have a serious name
 description: > 
   Armadillo Sandwich Pty Ltd homepage
 baseurl: "" # the subpath of your site, e.g. /blog/
