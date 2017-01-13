@@ -6,11 +6,7 @@ permalink: /jobs/
 
 There are some part time and casual vacancies at the moment. Please contact robyn at armadillosandwich dot com about these positions.
 <hr>
-<h2>Drupal Freelancers</h2>
 
-Seeking Drupal freelancers, particularly in the Sydney region (but other regions are fine too, it's more of a time zone issue), who are available on an ongoing part time basis for Drupal site maintenance work. Completely remote work, no need to come on site.
-
-<hr>
 <h2>Sysadmin/Devops</h2>
 
 Part time position to add, upgrade and maintain services on the Photographic Dictionary sites.
