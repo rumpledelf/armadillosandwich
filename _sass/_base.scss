@@ -1,4 +1,4 @@
-@use 'sass:color'; 
+//@use 'sass:color'; 
 
 // Our variables
 $base-font-family:  "Open Sans", Sans;
@@ -44,10 +44,12 @@ a{
   color: $orange;
   text-decoration: none;
   &:visited {
-    color: color.adjust(orange, $lightness: -10%);
+    /*color: color.adjust($orange, $lightness: -10%);*/
+    color: darken($orange, 10%);
   }
   &:hover {
-    color: color.adjust($darkbeige, $lightness: -10%);
+    /*color: color.adjust($darkbeige, $lightness: -10%);*/
+    color: darken($darkbeige, 10%);
   }
 }
 
@@ -63,7 +65,8 @@ dl, dd, ol, ul, figure {
 
 
 h1,h2,h3{
-  color: color.adjust($brown, $lightness: -15%);
+  /*color: color.adjust($brown, $lightness: -15%);*/
+  color: darken($brown, 15%);
 }
 
 /**

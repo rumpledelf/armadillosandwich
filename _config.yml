@@ -5,7 +5,8 @@ slogan: Because not every website has to have a serious name
 description: > 
   Armadillo Sandwich homepage
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://armadillosandwich.com" # the base hostname & protocol for your site
+url: "https://armadillosandwich.com" # the base hostname & protocol for your site
 
 # Build settings
-markdown: kramdown
+markdown:
+   kramdown
