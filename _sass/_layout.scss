@@ -27,8 +27,8 @@
       position: absolute;
       bottom: 0;
       right: 0;
-      width: 84px;
-      height: 84px;
+      width: 78px;
+      height: 78px;
       /*background-color: base.$orange;
       border-left: base.$spacing-unit solid base.$darkbeige;
       border-top: base.$spacing-unit solid base.$darkbeige;*/
@@ -79,7 +79,7 @@
     background-color: $beige;  
     width: $content-width;
     max-width: $content-width;
-    padding: $spacing-unit 0 0 0;
+    padding: 30px 0 0 0;
     border-bottom: $spacing-unit solid $brown;
   }
   @media all and (max-width: 1200px){
@@ -104,8 +104,8 @@
 }
 
 #menu{
-  padding: 8px 0;
-  height: 38px;
+  padding: 0;
+  height: 42px;
   width: 100%;
   /*background-color: base.$orange;
   border-top: base.$spacing-unit solid base.$darkbeige;
@@ -117,8 +117,9 @@
   overflow: hidden;
   a{
     color: white;
-    font-size: 1.5em;
-    padding: 0 5px;
+    font-size: 1.3em;
+    line-height: 42px;
+    padding: 0 $spacing-unit;
     text-align: center;
     &:hover{
       /*color: base.$brown;*/
@@ -130,7 +131,7 @@
 @media all and (min-width: 1200px){
   .wrapper:before {
     content: "";
-    width: 54px;
+    width: 42px;
     height: 100%;
     display: block;
     position: absolute;
@@ -196,8 +197,8 @@
     background-color: $beige;
   }
   #footermenu {
-    line-height: 50px;
-    height: 54px;
+    line-height: 42px;
+    height: 42px;
     /*border-top: base.$spacing-unit solid base.$brown;
     background-color: base.$orange;
     border-bottom: base.$spacing-unit solid base.$darkbeige;*/
@@ -214,8 +215,8 @@
       position: absolute;
       top: 0;
       right: 0;
-      width: 84px;
-      height: 84px;
+      width: 78px;
+      height: 78px;
       /*background-color: base.$orange;
       border-left: base.$spacing-unit solid base.$darkbeige;
       border-bottom: base.$spacing-unit solid base.$darkbeige;*/
