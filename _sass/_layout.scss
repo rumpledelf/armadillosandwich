@@ -1,62 +1,218 @@
+@use 'sass:color'; 
+@use 'base';
+
 #header{
-  padding: 10px;
-  background-color: $beige;
+  display: flex;   
+  height: 260px;
+  background-color: white;
   overflow: hidden;
+  padding-left: calc((100% - 1200px) / 2);
+  background: linear-gradient(90deg, rgba(243,243,189,1) 0%, rgba(243,243,189,1) 49%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+  
   h1{
     margin: 0 0 10px 0;
   }
   .slogan{
     font-style: italic;
     font-size: 0.8em;
-    color: $brown;
+    color: base.$brown;
+  }
+  #headerleft {
+    width: 200px;
+    background-color: base.$beige;
+    position: relative;
+    .inner {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 84px;
+      height: 84px;
+      background-color: base.$orange;
+      border-left: base.$spacing-unit solid base.$darkbeige;
+      border-top: base.$spacing-unit solid base.$darkbeige;
+      border-top-left-radius: 116px;
+      .inner {
+          width: 0;
+          height: 0;
+          border-left: base.$spacing-unit solid base.$brown;
+          border-top: base.$spacing-unit solid base.$brown;
+          border-top-left-radius: base.$spacing-unit;
+      }
+    }
+  }
+  #headerright {
+    width: 170px;
+    background-color: base.$orange;
+    border-right: base.$spacing-unit solid base.$brown;
+    border-bottom: base.$spacing-unit solid base.$brown;
+    border-bottom-right-radius: 230px;
+    .inner {
+      background-color: base.$beige;
+      width: 90px;
+      height: 146px;
+      border-right: base.$spacing-unit solid base.$darkbeige;
+      border-bottom: base.$spacing-unit solid base.$darkbeige;
+      border-bottom-right-radius: 146px;
+    }
+  }
+  #headermiddle {
+    background-color: base.$beige;  
+    width: base.$content-width;
+    max-width: base.$content-width;
+    padding: base.$spacing-unit 0 0 0;
+    border-bottom: base.$spacing-unit solid base.$brown;
+  }
+  @media all and (max-width: 1200px){
+    #headerleft, #headerright {
+      display: none;
+    }
+    #headermiddle {
+      width: 100%;
+      max-width: 100%;
+    }
+    #logo {
+      margin-left: base.$spacing-unit;
+    }
   }
 }
 
 #logo{
   float: left;
-  margin: 0 20px;
+  margin: 0 30px 14px 0;
   display: block;
 }
 
 #menu{
-  padding: 16px 0;
-  background-color: $darkbeige;
+  padding: 8px 0;
+  height: 38px;
+  background-color: base.$orange;
+  width: 100%;
+  border-top: base.$spacing-unit solid base.$darkbeige;
+  margin-top: base.$spacing-unit;
   text-align: center;
   overflow: hidden;
   a{
     color: white;
     font-size: 1.5em;
-    padding: 0 20px;
+    padding: 0 5px;
     text-align: center;
     &:hover{
-      color: $brown;
+      color: base.$brown;
     }
+  }
+}
+
+@media all and (min-width: 1200px){
+  .wrapper:before {
+    content: "";
+    width: 54px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: -114px;
+    top: 0;
+    background-color: base.$orange;
+    border-right: base.$spacing-unit solid base.$brown;
+    border-left: base.$spacing-unit solid base.$darkbeige;
+  }
+}
+
+.page-content {
+  background: linear-gradient(90deg, rgba(243,243,189,1) 0%, rgba(243,243,189,1) 49%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+  @media all and (max-width: 1200px){
+    background: white;
   }
 }
 
 .extlink{
   display: block;
   width: 150px;
-  margin: $spacing-unit/2 auto $spacing-unit auto;
+  margin: calc(base.$spacing-unit / 2) auto base.$spacing-unit auto;
   color: white !important;
   text-align: center;
-  padding:5px 10px;
-  background-color: $orange;
+  padding: 5px 10px;
+  background-color: base.$orange;
   border-radius: 5px;
   &:hover{
-    color: $beige;
-    background-color: darken($orange, 10%);
+    color: base.$beige;
+    background-color: color.adjust(base.$orange, $lightness: -10%);
   }
 }
 
 #footer{
-  background-color: $darkbeige;
-  color: $brown;
-  padding: 16px 10px;
+  display: flex;
+  height: 260px;
+  padding-left: calc((100% - 1200px) / 2);
+  background: linear-gradient(90deg, rgba(243,243,189,1) 0%, rgba(243,243,189,1) 49%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+  color: base.$brown;
   text-align: center;
   a{
+    color: base.$brown;
     &:hover{
       color: white;
+    }
+  }
+  #footermiddle {
+    height: 260px;
+    width: base.$content-width;
+    max-width: base.$content-width;
+    background-color: base.$beige;
+  }
+  #footermenu {
+    line-height: 50px;
+    height: 54px;
+    border-top: base.$spacing-unit solid base.$brown;
+    background-color: base.$orange;
+    border-bottom: base.$spacing-unit solid base.$darkbeige;
+  }
+   #footerleft {
+    width: 200px;
+    background-color: base.$beige;
+    position: relative;
+    .inner {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 84px;
+      height: 84px;
+      background-color: base.$orange;
+      border-left: base.$spacing-unit solid base.$darkbeige;
+      border-bottom: base.$spacing-unit solid base.$darkbeige;
+      border-bottom-left-radius: 116px;
+      .inner {
+          width: 0;
+          height: 0;
+          border-left: base.$spacing-unit solid base.$brown;
+          border-bottom: base.$spacing-unit solid base.$brown;
+          border-bottom-left-radius: base.$spacing-unit;
+      }
+    }
+  }
+  #footerright {
+    width: 170px;
+    position: relative;
+    background-color: base.$orange;
+    border-right: base.$spacing-unit solid base.$brown;
+    border-top: base.$spacing-unit solid base.$brown;
+    border-top-right-radius: 230px;
+    .inner {
+      position: absolute;
+      bottom: 0;
+      background-color: base.$beige;
+      width: 90px;
+      height: 146px;
+      border-right: base.$spacing-unit solid base.$darkbeige;
+      border-top: base.$spacing-unit solid base.$darkbeige;
+      border-top-right-radius: 146px;
+    }
+  }
+  @media all and (max-width: 1200px){
+    #footerleft, #footerright {
+      display: none;
+    }
+    #footermiddle {
+      width: 100%;
+      max-width: 100%;
     }
   }
 }

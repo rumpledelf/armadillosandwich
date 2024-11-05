@@ -1,10 +1,16 @@
 <div id="footer">
-  <small>
-    <a href="{{ site.baseurl }}">Home</a> |
-    {% for page in site.pages %}
-      {% if page.title %}
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> | 
-      {% endif %}
-    {% endfor %}&copy;&nbsp;2013-{{ site.time | date: '%Y' }}&nbsp;{{ site.title }} | ABN&nbsp;97&nbsp;164&nbsp;569&nbsp;591
-  </small>
+	<div id="footerleft"><div class="inner"><div class="inner"></div></div></div>
+  <div id="footermiddle">
+    <div id="footermenu">
+      <small>
+        <a href="{{ site.baseurl }}">Home</a> |
+        {% for page in site.pages %}
+          {% if page.title %}
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> | 
+          {% endif %}
+        {% endfor %}&copy;&nbsp;2013-{{ site.time | date: '%Y' }}&nbsp;{{ site.title }} | ABN&nbsp;97&nbsp;164&nbsp;569&nbsp;591
+      </small>
+    </div>
+  </div>
+  <div id="footerright"><div class="inner"></div></div>
 </div>
