@@ -83,16 +83,14 @@
     border-bottom: $spacing-unit solid $brown;
   }
   @media all and (max-width: 1200px){
+    height: auto;
+    
     #headerleft, #headerright {
       display: none;
     }
     #headermiddle {
       width: 100%;
       max-width: 100%;
-    }
-    #logo {
-      /*margin-left: base.$spacing-unit;*/
-      margin-left: $spacing-unit;
     }
   }
 }
@@ -101,6 +99,13 @@
   float: left;
   margin: 0 30px 14px 0;
   display: block;
+  @media all and (max-width: 1200px){
+    /*margin-left: base.$spacing-unit;*/
+    margin-left: $spacing-unit;
+  }
+  @media all and (max-width: 640px){
+    margin-left: 0;
+  }
 }
 
 #menu{
@@ -124,6 +129,13 @@
     &:hover{
       /*color: base.$brown;*/
       color: $brown;
+    }
+  }
+  @media all and (max-width: 640px){
+    text-align: center;
+    font-size: 1em;
+    a {
+      padding: 0 12px;
     }
   }
 }
@@ -278,17 +290,5 @@
   }
   #header{
     text-align: center;
-  }
-  #menu a{
-    float: left;
-    width: 25%;
-    padding: 0;
-  }
-}
-@media all and (max-width: 480px){
-  #menu a{
-    float: left;
-    width: 50%;
-    padding: 0;
   }
 }
