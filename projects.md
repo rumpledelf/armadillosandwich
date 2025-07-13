@@ -12,9 +12,17 @@ As I'm currently taking an extended break from paid work to refresh these, the p
 
 <a href="https://photographicdictionary.com">Photographic Dictionary</a> is, as the name suggests, a collection of common words illustrated with photos. Like my other personal sites I stopped working on it when I had a day job and couldn't give it the attention it deserved. Now with the rise of generative AI I want to clean up its Ruby on Rails backend and rewrite the front end into React and add a lot more content using generative AI. As a stretch goal I'd like to use the categorised collections of words to power some javascript word games to make the site a bit more interactive. This one used to get 1M pageviews a month at its peak, but is well below that currently.
 
+##Riverina.online
+
+Watch this space. Intention is to have a business directory for the Riverina region of NSW, with an optional ability to purchase a one page website on that subdomain. Maybe something else too, I'm just keeping myself busy while I'm not working for someone else.
+
+## Phrond
+
+Watch this space.
+
 ## Giraffian
 
-<a href="https://giraffian.com">Giraffian</a> is an old site with various childen's activities on it, but mostly has a collection of little kid's jokes. Site dates back to 2002 and has been rebuilt in a variety of technologies over the years. Currently in the process of porting it from Drupal 7 to Backdrop after realising that Backdrop is, in fact, really good.
+<a href="https://giraffian.com">Giraffian</a> is an old site with various childen's activities on it, but mostly has a collection of little kid's jokes. Site dates back to 2002 and has been rebuilt in a variety of technologies over the years. Recently (July 2025) rebuilt to mostly static, with a tiny bit of PHP to handle includes of repetitive elements, and pagination.
 
 ## Stancartoons
 
