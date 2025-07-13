@@ -12,7 +12,7 @@ As I'm currently taking an extended break from paid work to refresh these, the p
 
 <a href="https://photographicdictionary.com">Photographic Dictionary</a> is, as the name suggests, a collection of common words illustrated with photos. Like my other personal sites I stopped working on it when I had a day job and couldn't give it the attention it deserved. Now with the rise of generative AI I want to clean up its Ruby on Rails backend and rewrite the front end into React and add a lot more content using generative AI. As a stretch goal I'd like to use the categorised collections of words to power some javascript word games to make the site a bit more interactive. This one used to get 1M pageviews a month at its peak, but is well below that currently.
 
-##Riverina.online
+## Riverina.online
 
 Watch this space. Intention is to have a business directory for the Riverina region of NSW, with an optional ability to purchase a one page website on that subdomain. Maybe something else too, I'm just keeping myself busy while I'm not working for someone else.
 
