@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-These are my personal projects. My work related projects I'm not linking here as many have since been rebuilt in different technologies, but over the last several years by name they include Boral's Australian site and its collection of second brand sites, Woodsolutions, Dementia Australia, Commonwealth Games, the marriage equality vote info site, Queensland Family and Child Commission, University of NSW's collection of websites, Travel Massive, KAS Australia, Freedom Road Travel, TfNSW open data site, Luna Park and quite a few others.
+These are my personal projects. My work related projects I'm not linking here as many have since been rebuilt in different technologies, but over the last several years by name they include Boral's Australian site and its collection of second brand sites, Woodsolutions, Colorbond/Truecore, Dementia Australia, Commonwealth Games, the marriage equality vote info site, Queensland Family and Child Commission, University of NSW's collection of websites, Travel Massive, KAS Australia, Freedom Road Travel, TfNSW open data site, Luna Park and quite a few others.
 
 As I'm currently taking an extended break from paid work to refresh these, the projects listed below may be in a bit of an "under construction" status.
 
