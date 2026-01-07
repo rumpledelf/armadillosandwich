@@ -12,7 +12,7 @@ As I'm currently taking an extended break from paid work to refresh these, the p
 
 <a href="https://photographicdictionary.com">Photographic Dictionary</a> is, as the name suggests, a collection of common words illustrated with photos. Like my other personal sites I stopped working on it when I had a day job and couldn't give it the attention it deserved. Now with the rise of generative AI I want to clean up its Ruby on Rails backend and modernise the front end and add a lot more content using generative AI. As a stretch goal I'd like to use the categorised collections of words to power some javascript word games to make the site a bit more interactive. This one used to get 1M pageviews a month at its peak, but is well below that currently.
 
-##Undisclosed URL
+## Undisclosed URL
 
 I play an online game, and in a burst of frustration I wrote some scripts to collect rankings from inside the game and put them on a website. Apparently I was not the only person experiencing this frustration, and now my little ranking site gets near half a million pageviews a month and enough money to impress both me and my cats. I did not mean to do this, and this is the first time I've ever made something that's genuinely gone viral and I still don't want to admit publically that I've done it as it really is quite an awful game.
 
