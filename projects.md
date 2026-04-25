@@ -6,7 +6,7 @@ permalink: /projects/
 
 These are my personal projects.
 
-My professional work isn’t linked here — much of it has been rebuilt or replaced over time — but over the years it has included large Australian corporate and government sites, data platforms, campaign microsites, and high-traffic public information systems.
+My professional work isn’t linked here - much of it has been rebuilt or replaced over time - but over the years it has included large Australian corporate and government sites, data platforms, campaign microsites, and high-traffic public information systems.
 
 I’m currently focused on my own long-term projects and infrastructure. Some of the projects listed below are actively under development, some are stable and focussed on content production, and some are preserved as archives.
 
