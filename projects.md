@@ -8,7 +8,15 @@ These are my personal projects.
 
 My professional work isn’t linked here - much of it has been rebuilt or replaced over time - but over the years it has included large Australian corporate and government sites, data platforms, campaign microsites, and high-traffic public information systems.
 
-I’m currently focused on my own long-term projects and infrastructure. Some of the projects listed below are actively under development, some are stable and focussed on content production, and some are preserved as archives.
+I’m currently focused on my own projects and infrastructure. Some of the projects listed below are actively under development, some are stable and focussed on content production, and some are preserved as archives.
+
+## Community publishing tool (under development)
+
+Due to the upcoming deprecation of MS Publisher and the deprecation of MS Word on older versions of iOS I've been working on <a href="https://oasispublisher.com">Oasis Publisher</a>, a narrow focus online desktop publishing app specifically for newsletter workflows - intake of short articles from various sources, with tools to clean up incoming content and lay out in an easy to use, predictable manner.
+
+## Decorative separators and corners (under development)
+
+Inferface elements as math. Borders, corners, separators with flowers, mechanical components, swooshes, whiplashes, geometric patterns etc. Lots of fun, but not live yet.
 
 ## Data Platform (Analytics & Ranking)
 
@@ -16,7 +24,7 @@ A data-driven ranking and analytics system built on Backdrop with custom ingesti
 
 ## Photographic Dictionary
 
-<a href="https://photographicdictionary.com">Photographic Dictionary</a> is a long-running photo dictionary illustrating common words with curated images. Originally launched in 2009, it is now powered by a custom PHP backend and continues to evolve as a structured content system.
+<a href="https://photographicdictionary.com">Photographic Dictionary</a> is a long-running photo dictionary illustrating common words with curated images. Originally launched in 2009, it is now powered by a custom PHP backend and continues to evolve as a structured content system. It now features interactive activities and games.
 
 ## Words, by Cat
 
