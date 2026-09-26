@@ -13,15 +13,19 @@ I’m currently focused on my own projects and infrastructure. Some of the proje
 
 ## Other stuff in progress
 
-Also have a "web design by *feel*" app in progress, and a browser game. Amazing what you can do when you don't have a job.
+Also have a "web design by *feel*" app in progress, and a browser game. And a gem/crystal/rock generator. Amazing what you can do when you don't have a job.
 
 ## Phrond Draw
 
-<a href="https://phrond.com/draw">Draw<a> is a simple, easy to use online SVG editor. Not as full featured as Illustrator or Inkscape, but good for quick file edits.
+<a href="https://phrond.com/draw">Draw</a> is a simple, easy to use online SVG editor. Not as full featured as Illustrator or Inkscape, but good for quick file edits. It has some hooks to let you edit assets straight from your localhost vibe coded nonsense.
 
 ## Phrond Publish
 
 Due to the upcoming deprecation of MS Publisher and the deprecation of MS Word on older versions of osX I've been working on <a href="https://phrond.com/publish">Publish</a>, a narrow focus online desktop publishing app specifically for newsletter workflows - intake of short articles from various sources, with tools to clean up incoming content and lay out in an easy to use, predictable manner. You can pin layout and content to preserve between editions.
+
+## Phrond Annotate
+
+If you desparately need to put a circle around something in a photo and want it to not look bad while doing it, try <a href="https://phrond.com/annotate">Annotate</a> because that's all it does. Also captions.
 
 ## Decorative separators and corners (under development)
 
