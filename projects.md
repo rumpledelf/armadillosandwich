@@ -10,9 +10,18 @@ My professional work isn’t linked here - much of it has been rebuilt or replac
 
 I’m currently focused on my own projects and infrastructure. Some of the projects listed below are actively under development, some are stable and focussed on content production, and some are preserved as archives.
 
-## Community publishing tool (under development)
 
-Due to the upcoming deprecation of MS Publisher and the deprecation of MS Word on older versions of iOS I've been working on <a href="https://oasispublisher.com">Oasis Publisher</a>, a narrow focus online desktop publishing app specifically for newsletter workflows - intake of short articles from various sources, with tools to clean up incoming content and lay out in an easy to use, predictable manner.
+## Other stuff in progress
+
+Also have a "web design by *feel*" app in progress, and a browser game. Amazing what you can do when you don't have a job.
+
+## Phrond Draw
+
+<a href="https://phrond.com/draw">Draw<a> is a simple, easy to use online SVG editor. Not as full featured as Illustrator or Inkscape, but good for quick file edits.
+
+## Phrond Publish
+
+Due to the upcoming deprecation of MS Publisher and the deprecation of MS Word on older versions of osX I've been working on <a href="https://phrond.com/publish">Publish</a>, a narrow focus online desktop publishing app specifically for newsletter workflows - intake of short articles from various sources, with tools to clean up incoming content and lay out in an easy to use, predictable manner. You can pin layout and content to preserve between editions.
 
 ## Decorative separators and corners (under development)
 
